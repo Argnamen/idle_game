@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c0075b3d564f8f981bdad636c0aea7, type: 3}
+  m_Name: Armor_1
+  m_EditorClassIdentifier: 
+  _nameItem: Armor_1
+  _itemSprite: {fileID: 21300000, guid: 4a515a315ad75b14b80e0f8021d08ebd, type: 3}
+  _hpParam: 5
+  _buffParam: 3
+  _damageParam: 0
+  _crtDamageParam: 0
+  _chanceCrtDamage: 3
+  itemType: 0
+  _animatorAttack: {fileID: 0}

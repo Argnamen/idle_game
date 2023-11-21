@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "603244030066",
+    "project_id": "zombie-clicker-rpg",
+    "storage_bucket": "zombie-clicker-rpg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603244030066:android:eff276e843f4d6bfafbaeb",
+        "android_client_info": {
+          "package_name": "com.asomgames.ZombieClickerRPG"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603244030066-7m412fij54hnug3dfg35ha4dc28pa6f5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyhWJsrLizVGkctPzVDN5Vsos84FvlTUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603244030066-7m412fij54hnug3dfg35ha4dc28pa6f5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

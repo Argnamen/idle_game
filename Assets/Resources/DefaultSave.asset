@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00668a29215632d4692a3ac6afb2b868, type: 3}
+  m_Name: DefaultSave
+  m_EditorClassIdentifier: 
+  _saves:
+  - Name: Base_Constants
+    Value: "[\r\n  [\r\n    \"Constant\",\r\n    \"Value\"\r\n  ],\r\n  [\r\n   
+      \"Bastion_HP_Max\",\r\n    \"1000\"\r\n  ],\r\n  [\r\n    \"Bastion_Regeneration_Value\",\r\n   
+      \"100\"\r\n  ],\r\n  [\r\n    \"Bastion_CriticalHP_UpperBorder\",\r\n    \"30\"\r\n 
+      ],\r\n  [\r\n    \"Bastion_CriticalHP_LowerBorder\",\r\n    \"15\"\r\n  ],\r\n 
+      [\r\n    \"Bastion_CriticalHP_AttackSpeedReducing\",\r\n    \"50\"\r\n  ],\r\n 
+      [\r\n    \"Bastion_CriticalHP_ChangeTimer\",\r\n    \"2\"\r\n  ],\r\n  [\r\n   
+      \"Bastion_Destroyed_Regeneration\",\r\n    \"40\"\r\n  ],\r\n  [\r\n    \"Stages_Base_NumberOfWaves\",\r\n   
+      \"10\"\r\n  ],\r\n  [\r\n    \"Stages_FarmStagge_Difficult\",\r\n    \"30\"\r\n 
+      ],\r\n  [\r\n    \"Stages_NumberOfEnemies\",\r\n    \"7\"\r\n  ],\r\n  [\r\n   
+      \"Stages_Spawn_Interval\",\r\n    \"0.5:1\"\r\n  ],\r\n  [\r\n    \"Stages_Spawn_PowerPercent\",\r\n   
+      \"80\"\r\n  ],\r\n  [\r\n    \"Base_HeroDamage\",\r\n    \"1\"\r\n  ],\r\n 
+      [\r\n    \"Base_HeroCriticalDamageChance\",\r\n    \"2\"\r\n  ],\r\n  [\r\n   
+      \"Base_HeroCriticalDamageMultiplier\",\r\n    \"1.2\"\r\n  ],\r\n  [\r\n   
+      \"CharacterAttack_Max_Priority\",\r\n    \"100\"\r\n  ],\r\n  [\r\n    \"CharacterAttack_Higher_Priority_2z\",\r\n   
+      \"70\"\r\n  ],\r\n  [\r\n    \"CharacterAttack_Lower_Priority_2z\",\r\n   
+      \"30\"\r\n  ],\r\n  [\r\n    \"CharacterAttack_Higher_Priority_3z\",\r\n   
+      \"65\"\r\n  ],\r\n  [\r\n    \"CharacterAttack_Medium_Priority_3z\",\r\n   
+      \"25\"\r\n  ],\r\n  [\r\n    \"CharacterAttack_Lower_Priority_3z\",\r\n   
+      \"10\"\r\n  ],\r\n  [\r\n    \"Spawn_Delay\",\r\n    \"1:2\"\r\n  ],\r\n  [\r\n   
+      \"Spawn_CoolDown_Points\",\r\n    \"3\"\r\n  ],\r\n  [\r\n    \"Spawn_StopSpawnDuration\",\r\n   
+      \"2\"\r\n  ],\r\n  [\r\n    \"Movement_CharacterSpeed\",\r\n    \"30\"\r\n 
+      ],\r\n  [\r\n    \"Movement_BossSpeed\",\r\n    \"20\"\r\n  ],\r\n  [\r\n   
+      \"Base_GoldReward\",\r\n    \"10\"\r\n  ],\r\n  [\r\n    \"Boss_DropChance\",\r\n   
+      \"0;10;5;1;0\"\r\n  ],\r\n  [\r\n    \"Character_DropChance\",\r\n    \"0.1;0.01;0;0;0\"\r\n 
+      ],\r\n  [\r\n    \"Hero_MaxLvl\",\r\n    \"1000\"\r\n  ],\r\n  [\r\n    \"Hero_Abilities_MaxLvl\",\r\n   
+      \"50\"\r\n  ],\r\n  [\r\n    \"Character_MaxLvl\",\r\n    \"1000\"\r\n  ],\r\n 
+      [\r\n    \"Character_Items_MaxLvl\",\r\n    \"10\"\r\n  ],\r\n  [\r\n    \"Hero_BaseUpgradeCost\",\r\n   
+      \"10\"\r\n  ],\r\n  [\r\n    \"Base_UpgradeCostMultiplyer\",\r\n    \"1.07\"\r\n 
+      ],\r\n  [\r\n    \"Hero_Ability_CrushingStrike_UnlockLvl\",\r\n    \"100\"\r\n 
+      ],\r\n  [\r\n    \"Hero_Ability_RuthlessStrike_UnlockLvl\",\r\n    \"150\"\r\n 
+      ],\r\n  [\r\n    \"Hero_Ability_ThirstForWealth_UnlockLvl\",\r\n    \"200\"\r\n 
+      ],\r\n  [\r\n    \"Hero_Ability_BattleRage_UnlockLvl\",\r\n    \"250\"\r\n 
+      ],\r\n  [\r\n    \"Hero_Ability_Inspiration_UnlockLvl\",\r\n    \"300\"\r\n 
+      ],\r\n  [\r\n    \"Hero_Ability_Retribution_UnlockLvl\",\r\n    \"400\"\r\n 
+      ],\r\n  [\r\n    \"Character_SkillUnlockLvl_1st\",\r\n    \"10\"\r\n  ],\r\n 
+      [\r\n    \"Character_SkillUnlockLvl_2nd\",\r\n    \"20\"\r\n  ],\r\n  [\r\n   
+      \"Character_SkillUnlockLvl_3rd\",\r\n    \"50\"\r\n  ],\r\n  [\r\n    \"Character_SkillUnlockLvl_4th\",\r\n   
+      \"100\"\r\n  ],\r\n  [\r\n    \"Character_SkillUnlockLvl_5th\",\r\n    \"200\"\r\n 
+      ],\r\n  [\r\n    \"Character_SkillUnlockLvl_6th\",\r\n    \"400\"\r\n  ],\r\n 
+      [\r\n    \"Character_SkillUnlockLvl_7th\",\r\n    \"600\"\r\n  ],\r\n  [\r\n   
+      \"Character_SkillUnlockLvl_8th\",\r\n    \"800\"\r\n  ],\r\n  [\r\n    \"Character_SkillUnlockLvl_9th\",\r\n   
+      \"1000\"\r\n  ],\r\n  [\r\n    \"Character_SkillPriceMultiplyer\",\r\n    \"20\"\r\n 
+      ]\r\n]"
+    Link: 16EuULcHFd0kKqHzZQUgzqwewEMreM-Z5A2TLYY_cbkc
+  - Name: Base_BastionPoints
+    Value: "[\r\n  [\r\n    \"Point\",\r\n    \"Character_UID\"\r\n  ],\r\n  [\r\n   
+      \"Main_point\",\r\n    \"Character_main\"\r\n  ],\r\n  [\r\n    \"Point_1\",\r\n   
+      \"Character_1\"\r\n  ],\r\n  [\r\n    \"Point_2\",\r\n    \"Character_2\",\r\n   
+      \"\",\r\n    \"\",\r\n    \"\u041C\u0435\u0441\u0442\u043E \u0434\u043B\u044F
+      \u043A\u0430\u0440\u0442\u0438\u043D\u043A\u0438 \u0441 \u0440\u0430\u0441\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435\u043C
+      \u0442\u043E\u0447\u0435\u043A\"\r\n  ],\r\n  [\r\n    \"Point_3\",\r\n   
+      \"Character_3\"\r\n  ],\r\n  [\r\n    \"Point_4\",\r\n    \"Character_4\"\r\n 
+      ],\r\n  [\r\n    \"Point_5\",\r\n    \"Character_5\"\r\n  ],\r\n  [\r\n   
+      \"Point_6\",\r\n    \"Character_6\"\r\n  ],\r\n  [\r\n    \"Point_7\",\r\n   
+      \"Character_7\"\r\n  ],\r\n  [\r\n    \"Point_8\",\r\n    \"Character_8\"\r\n 
+      ],\r\n  [\r\n    \"Point_9\",\r\n    \"Character_9\"\r\n  ],\r\n  [\r\n   
+      \"Point_10\",\r\n    \"Character_10\"\r\n  ],\r\n  [\r\n    \"Point_11\",\r\n   
+      \"Character_11\"\r\n  ],\r\n  [\r\n    \"Point_12\",\r\n    \"Character_12\"\r\n 
+      ],\r\n  [\r\n    \"Point_13\",\r\n    \"Character_13\"\r\n  ],\r\n  [\r\n   
+      \"Point_14\",\r\n    \"Character_14\"\r\n  ],\r\n  [\r\n    \"Point_15\",\r\n   
+      \"Character_15\"\r\n  ],\r\n  [\r\n    \"Point_16\",\r\n    \"Character_16\"\r\n 
+      ],\r\n  [\r\n    \"Point_17\",\r\n    \"Character_17\"\r\n  ],\r\n  [\r\n   
+      \"Point_18\",\r\n    \"Character_18\"\r\n  ],\r\n  [\r\n    \"Point_19\",\r\n   
+      \"Character_19\"\r\n  ],\r\n  [\r\n    \"Point_20\",\r\n    \"Character_20\"\r\n 
+      ],\r\n  [\r\n    \"Point_21\",\r\n    \"Character_21\"\r\n  ],\r\n  [\r\n   
+      \"Point_22\",\r\n    \"Character_22\"\r\n  ],\r\n  [\r\n    \"Point_23\",\r\n   
+      \"Character_23\"\r\n  ],\r\n  [\r\n    \"Point_24\",\r\n    \"Character_24\"\r\n 
+      ],\r\n  [\r\n    \"Point_25\",\r\n    \"Character_25\"\r\n  ],\r\n  [\r\n   
+      \"Point_26\",\r\n    \"Character_26\"\r\n  ],\r\n  [\r\n    \"Point_27\",\r\n   
+      \"Character_27\"\r\n  ],\r\n  [\r\n    \"Point_28\",\r\n    \"Character_28\"\r\n 
+      ],\r\n  [\r\n    \"Point_29\",\r\n    \"Character_29\"\r\n  ],\r\n  [\r\n   
+      \"Point_30\",\r\n    \"Character_30\"\r\n  ],\r\n  [\r\n    \"Point_31\",\r\n   
+      \"Character_31\"\r\n  ],\r\n  [\r\n    \"Point_32\",\r\n    \"Character_32\"\r\n 
+      ],\r\n  [\r\n    \"Point_33\",\r\n    \"Character_33\"\r\n  ],\r\n  [\r\n   
+      \"Point_34\",\r\n    \"Character_34\"\r\n  ],\r\n  [\r\n    \"Point_35\",\r\n   
+      \"Character_35\"\r\n  ],\r\n  [\r\n    \"Point_36\",\r\n    \"Character_36\"\r\n 
+      ],\r\n  [\r\n    \"Point_37\",\r\n    \"Character_37\"\r\n  ],\r\n  [\r\n   
+      \"Point_38\",\r\n    \"Character_38\"\r\n  ],\r\n  [\r\n    \"Point_39\",\r\n   
+      \"Character_39\"\r\n  ],\r\n  [\r\n    \"Point_40\",\r\n    \"Character_40\"\r\n 
+      ]\r\n]"
+    Link: 1L-tb53EDze40q0gemDORa6C9ZfbvWjEAYHe5foe-Vq0
+  - Name: Base_Stage
+    Value: "[\r\n  [\r\n    \"Stage_UID\",\r\n    \"Target_HP\",\r\n    \"Tags\",\r\n   
+      \"GoldMultiplier\",\r\n    \"Reward\"\r\n  ],\r\n  [\r\n    \"Stage_1\",\r\n   
+      \"100\",\r\n    \"Zombie\",\r\n    \"1.100\",\r\n    \"-\"\r\n  ],\r\n  [\r\n   
+      \"Boss_1\",\r\n    \"150\",\r\n    \"Boss\",\r\n    \"1.100\",\r\n    \"-\"\r\n 
+      ],\r\n  [\r\n    \"Stage_2\",\r\n    \"200\",\r\n    \"Zombie\",\r\n    \"1.105\",\r\n   
+      \"-\"\r\n  ],\r\n  [\r\n    \"Boss_2\",\r\n    \"250\",\r\n    \"Boss\",\r\n   
+      \"1.105\",\r\n    \"-\"\r\n  ],\r\n  [\r\n    \"Stage_3\",\r\n    \"300\",\r\n   
+      \"Zombie\",\r\n    \"1.200\",\r\n    \"-\"\r\n  ],\r\n  [\r\n    \"Boss_3\",\r\n   
+      \"350\",\r\n    \"Boss\",\r\n    \"1.232\",\r\n    \"-\"\r\n  ],\r\n  [\r\n   
+      \"Stage_4\",\r\n    \"400\",\r\n    \"Zombie\",\r\n    \"1.279\",\r\n    \"-\"\r\n 
+      ],\r\n  [\r\n    \"Boss_4\",\r\n    \"450\",\r\n    \"Boss\",\r\n    \"1.327\",\r\n   
+      \"-\"\r\n  ],\r\n  [\r\n    \"Stage_5\",\r\n    \"500\",\r\n    \"Zombie\",\r\n   
+      \"1.374\",\r\n    \"-\"\r\n  ],\r\n  [\r\n    \"Boss_5\",\r\n    \"550\",\r\n   
+      \"Boss\",\r\n    \"1.422\",\r\n    \"Reward_1\"\r\n  ],\r\n  [\r\n    \"Stage_6\",\r\n   
+      \"600\",\r\n    \"Zombie\",\r\n    \"1.469\",\r\n    \"-\"\r\n  ],\r\n  [\r\n   
+      \"Boss_6\",\r\n    \"650\",\r\n    \"Boss\",\r\n    \"1.517\",\r\n    \"-\"\r\n 
+      ],\r\n  [\r\n    \"Stage_7\",\r\n    \"700\",\r\n    \"Beasts\",\r\n    \"1.564\",\r\n   
+      \"-\"\r\n  ],\r\n  [\r\n    \"Boss_7\",\r\n    \"750\",\r\n    \"Boss\",\r\n   
+      \"1.612\",\r\n    \"-\"\r\n  ],\r\n  [\r\n    \"Stage_8\",\r\n    \"800\",\r\n   
+      \"Beasts\",\r\n    \"1.659\",\r\n    \"-\"\r\n  ],\r\n  [\r\n    \"Boss_8\",\r\n   
+      \"850\",\r\n    \"Boss\",\r\n    \"1.707\",\r\n    \"-\"\r\n  ],\r\n  [\r\n   
+      \"Stage_9\",\r\n    \"900\",\r\n    \"Beasts\",\r\n    \"1.754\",\r\n    \"-\"\r\n 
+      ],\r\n  [\r\n    \"Boss_9\",\r\n    \"950\",\r\n    \"Boss\",\r\n    \"1.802\",\r\n   
+      \"-\"\r\n  ],\r\n  [\r\n    \"Stage_10\",\r\n    \"1000\",\r\n    \"Beasts\",\r\n   
+      \"1.849\",\r\n    \"-\"\r\n  ],\r\n  [\r\n    \"Boss_10\",\r\n    \"1050\",\r\n   
+      \"Boss\",\r\n    \"1.897\",\r\n    \"Reward_1\"\r\n  ]\r\n]"
+    Link: 1NOLkc1PpTdhQX-bCTRlltx8Y7UuMDZQfZokebYh8aoo
+  - Name: state_1_state
+    Value: "[\r\n  \"Base\",\r\n  \"Base\",\r\n  \"Base\"\r\n]"
+    Link: 1FAOP5ziGdw8eSdzET6LJfKcjTqYcHOveNq0gExVDWpc
+  - Name: state_2_state
+    Value: "[\r\n  \"Base\",\r\n  \"Base\",\r\n  \"Base\"\r\n]"
+    Link: 1FAOP5ziGdw8eSdzET6LJfKcjTqYcHOveNq0gExVDWpc
+  - Name: state_3_state
+    Value: "[\r\n  \"Base\",\r\n  \"Base\",\r\n  \"Base\"\r\n]"
+    Link: 1FAOP5ziGdw8eSdzET6LJfKcjTqYcHOveNq0gExVDWpc
+  - Name: state_4_state
+    Value: "[\r\n  \"Base\",\r\n  \"Base\",\r\n  \"Base\"\r\n]"
+    Link: 1FAOP5ziGdw8eSdzET6LJfKcjTqYcHOveNq0gExVDWpc

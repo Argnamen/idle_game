@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b3deafd89a17f149bbccd778c75d3a0, type: 3}
+  m_Name: LevelPrefabs_1(bes)
+  m_EditorClassIdentifier: 
+  <EnemyPrefabs>k__BackingField:
+  - {fileID: 6086455294157463746, guid: 1106635b98b94e3429bf54e045768798, type: 3}
+  - {fileID: 4683122068840922559, guid: 98d3dcfb18cf97b4480f1d8b21e3ce45, type: 3}
+  - {fileID: 8405494625827702510, guid: 24d208623ba381e43af80aa86d690e07, type: 3}
+  - {fileID: 7981982692873620266, guid: 2efbc73859118b348a823c4a714943d0, type: 3}
+  - {fileID: 6220929523967289256, guid: 0d2900a6e7bb87549999168cef7396d8, type: 3}
+  - {fileID: 8309791457486579670, guid: acdbe171b32c8e143a52b7be5b9add47, type: 3}
+  - {fileID: 8284705020509516239, guid: a3cbacdcd3947b14d91f9e37c4b271e8, type: 3}
+  - {fileID: 1167788821693157636, guid: faf9aba9c4126934ca852d0ded347a91, type: 3}
+  - {fileID: 8449940409665846182, guid: 7e4d47f93a1ba704cb7fe9948560df7f, type: 3}
+  - {fileID: 413358172949881189, guid: 8f54410d03ae9d04689782d4826bbcf6, type: 3}
+  - {fileID: 1248828015198461354, guid: c57cb3e1260364845a07178552c5f1f9, type: 3}
+  - {fileID: 3381788302616654669, guid: 4433f61680003ef4db23b75dc952c619, type: 3}
+  - {fileID: 1269949722529098054, guid: 79a7d4e3331fb7445a37512227d70b47, type: 3}
+  - {fileID: 3013583171649883725, guid: 728565735b14f884eb874b5074c3be45, type: 3}
+  - {fileID: 8239723317409330712, guid: 67efcedb6dfe1754c970a86ea3fc3434, type: 3}
+  <_endLevelCount>k__BackingField: 10
+  Stages_Spawn_Interval: 5

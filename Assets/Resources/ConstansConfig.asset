@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 156da41bce12010458d879af60c30320, type: 3}
+  m_Name: ConstansConfig
+  m_EditorClassIdentifier: 
+  Constants:
+    _bastionHpMax: 1000
+    _bastionRegenerationValue: 100
+    _bastionCriticalHpUpperBorder: 30
+    _bastionCriticalHpLowerBorder: 15
+    _bastionCriticalHpAttackSpeedReducing: 50
+    _bastionCriticalHpChangeTimer: 2
+    _bastionDestroyedRegeneration: 40
+    _stages_Base_NumberOfWaves: 10
+    _stages_FarmStagge_Difficult: 30
+    _stages_NumberOfEnemies: 7
+    _stages_Spawn_Interval: 0
+    _stages_Spawn_PowerPercent: 80
+    _base_HeroDamage: 1
+    _base_HeroCriticalDamageChance: 2
+    _base_HeroCriticalDamageMultiplier: 0
+    _characterAttack_Max_Priority: 100
+    _characterAttack_Higher_Priority_2z: 70
+    _characterAttack_Lower_Priority_2z: 30
+    _characterAttack_Higher_Priority_3z: 65
+    _characterAttack_Medium_Priority_3z: 25
+    _characterAttack_Lower_Priority_3z: 10
+    _spawn_Delay: 0
+    _spawn_CoolDown_Points: 3
+    _spawn_StopSpawnDuration: 2
+    _movement_CharacterSpeed: 30
+    _movement_BossSpeed: 20
+    _base_GoldReward: 10
+    _boss_DropChance: 0
+    _character_DropChance: 0
+    _hero_MaxLvl: 1000
+    _hero_Abilities_MaxLvl: 50
+    _character_MaxLvl: 1000
+    _character_Items_MaxLvl: 10
+    _hero_BaseUpgradeCost: 10
+    _base_UpgradeCostMultiplyer: 0
+    _hero_Ability_CrushingStrike_UnlockLvl: 100
+    _hero_Ability_RuthlessStrike_UnlockLvl: 150
+    _hero_Ability_ThirstForWealth_UnlockLvl: 200
+    _hero_Ability_BattleRage_UnlockLvl: 250
+    _hero_Ability_Inspiration_UnlockLvl: 300
+    _hero_Ability_Retribution_UnlockLvl: 400
+    _character_SkillUnlockLvl_1st: 10
+    _character_SkillUnlockLvl_2nd: 20
+    _character_SkillUnlockLvl_3rd: 50
+    _character_SkillUnlockLvl_4th: 100
+    _character_SkillUnlockLvl_5th: 200
+    _character_SkillUnlockLvl_6th: 400
+    _character_SkillUnlockLvl_7th: 600
+    _character_SkillUnlockLvl_8th: 800
+    _character_SkillUnlockLvl_9th: 1000
+    _character_SkillPriceMultiplyer: 20

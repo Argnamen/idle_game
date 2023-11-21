@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &480323145794721032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 480323145794721034}
+  - component: {fileID: 480323145794721033}
+  - component: {fileID: 480323145794721036}
+  - component: {fileID: 480323145794721035}
+  - component: {fileID: 7602778434777297970}
+  - component: {fileID: 1310693969809899138}
+  m_Layer: 5
+  m_Name: UIDocument
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &480323145794721034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480323145794721032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &480323145794721033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480323145794721032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: 101c30722ef37464c9ad4181d8af1c32, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 51eb36364febbf54c9c379f426ac3949, type: 3}
+  m_SortingOrder: 0
+--- !u!114 &480323145794721036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480323145794721032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bf76d263cad68b438c442fc73a14aee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &480323145794721035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480323145794721032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c750571f4274b7a429094fe4cd51b457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MobPrefab: {fileID: 295602651993444999, guid: 967e4f5872c98ad458e7988a5da108d3, type: 3}
+  _baseCost: 50
+  _baseDP: 10
+  _baseHP: 100
+  _costMultiplie: 1.07
+  _DPMultiplie: 1.01
+  _HPNultiplie: 1.01
+  _buttonNumber: 0
+  _maxDiffDPForOpen: 0
+  _DP: 0
+  _HP: 0
+  _cost: 0
+  _gems: 2147483647
+--- !u!114 &7602778434777297970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480323145794721032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba9f2486e9e30e94690f02512994be7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MobPrefab: {fileID: 295602651993444999, guid: ab65a9a28c9acfd41b78d2e28ab83b2a, type: 3}
+  _baseCost: 100
+  _baseDP: 10
+  _baseHP: 100
+  _costMultiplie: 1.07
+  _DPMultiplie: 1.01
+  _HPNultiplie: 1.01
+  _buttonNumber: 1
+  _maxDiffDPForOpen: 0.2
+  _DP: 0
+  _HP: 0
+  _cost: 0
+  _gems: 0
+  spawnEnemy: {fileID: 0}
+--- !u!114 &1310693969809899138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480323145794721032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9795a8de71447284dba075c7cd0104d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MobPrefab: {fileID: 295602651993444999, guid: 3f925927c174de64f94e1c1f080595e0, type: 3}
+  _baseCost: 200
+  _baseDP: 10
+  _baseHP: 100
+  _costMultiplie: 1.1
+  _DPMultiplie: 1.01
+  _HPNultiplie: 1.01
+  _buttonNumber: 2
+  _maxDiffDPForOpen: 0.2
+  _DP: 0
+  _HP: 0
+  _cost: 0
+  _gems: 0

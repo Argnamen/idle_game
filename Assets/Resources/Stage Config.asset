@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f6a6b2e60ad0649a4badb2af7e0a9c, type: 3}
+  m_Name: Stage Config
+  m_EditorClassIdentifier: 
+  Stage:
+    _stage_UID:
+    - Stage_1
+    - Boss_1
+    - Stage_2
+    - Boss_2
+    - Stage_3
+    - Boss_3
+    - Stage_4
+    - Boss_4
+    - Stage_5
+    - Boss_5
+    - Stage_6
+    - Boss_6
+    - Stage_7
+    - Boss_7
+    - Stage_8
+    - Boss_8
+    - Stage_9
+    - Boss_9
+    - Stage_10
+    - Boss_10
+    _target_HP:
+    - 100
+    - 150
+    - 200
+    - 250
+    - 300
+    - 350
+    - 400
+    - 450
+    - 500
+    - 550
+    - 600
+    - 650
+    - 700
+    - 750
+    - 800
+    - 850
+    - 900
+    - 950
+    - 1000
+    - 1050
+    _reward:
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - Reward_1
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - Reward_1

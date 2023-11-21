@@ -1,0 +1,19 @@
+.LabelAnimation {
+    width: auto;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    translate: -100% -50%;
+}
+
+.BackgraundAnimation {
+    height: 50%;
+    background-image: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    translate: 100% 50%;
+    transition-timing-function: ease-in-elastic;
+    transition-duration: 100s;
+    transition-delay: 10s;
+}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22cec0b562d83b5429fc1a5ccd5c6ed6, type: 3}
+  m_Name: New State Configurator
+  m_EditorClassIdentifier: 
+  _states:
+  - _name: state_1
+  - _name: state_2
+  _currentState: state_1
+  _constantsLink: 16EuULcHFd0kKqHzZQUgzqwewEMreM-Z5A2TLYY_cbkc
+  _bastionPointLink: 1L-tb53EDze40q0gemDORa6C9ZfbvWjEAYHe5foe-Vq0
+  _stagesLink: 1NOLkc1PpTdhQX-bCTRlltx8Y7UuMDZQfZokebYh8aoo
+  _stateLink: 1FAOP5ziGdw8eSdzET6LJfKcjTqYcHOveNq0gExVDWpc
+  _selectedSheet: Base_BastionPoints
+  _selectedState: state_1_state
+  _tip: 
+  _postfixes:
+  - Link: 1FAOP5ziGdw8eSdzET6LJfKcjTqYcHOveNq0gExVDWpc
+    Postfix: State
+  - Link: 16EuULcHFd0kKqHzZQUgzqwewEMreM-Z5A2TLYY_cbkc
+    Postfix: Constants
+  - Link: 1NOLkc1PpTdhQX-bCTRlltx8Y7UuMDZQfZokebYh8aoo
+    Postfix: Stage
+  - Link: 1L-tb53EDze40q0gemDORa6C9ZfbvWjEAYHe5foe-Vq0
+    Postfix: BastionPoints

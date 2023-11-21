@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c2a2e12d010a644d9e037f9fd254675, type: 3}
+  m_Name: BastionPoints Config
+  m_EditorClassIdentifier: 
+  BastionPoints:
+    _mainPoint: Character_main
+    _points:
+    - Character_1
+    - Character_2
+    - Character_3
+    - Character_4
+    - Character_5
+    - Character_6
+    - Character_7
+    - Character_8
+    - Character_9
+    - Character_10
+    - Character_11
+    - Character_12
+    - Character_13
+    - Character_14
+    - Character_15
+    - Character_16
+    - Character_17
+    - Character_18
+    - Character_19
+    - Character_20
+    - Character_21
+    - Character_22
+    - Character_23
+    - Character_24
+    - Character_25
+    - Character_26
+    - Character_27
+    - Character_28
+    - Character_29
+    - Character_30
+    - Character_31
+    - Character_32
+    - Character_33
+    - Character_34
+    - Character_35
+    - Character_36
+    - Character_37
+    - Character_38
+    - Character_39
+    - Character_40

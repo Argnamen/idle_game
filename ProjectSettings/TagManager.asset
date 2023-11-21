@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Destroy
+  - Ghost
+  - Bastion
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Gold
+  - Water
+  - UI
+  - Zombie
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Zombie Unit
+    uniqueID: 484046951
+    locked: 0
+  - name: Human Unit
+    uniqueID: 4041100927
+    locked: 0
+  - name: Blow
+    uniqueID: 2030565059
+    locked: 0
+  - name: Light
+    uniqueID: 820656251
+    locked: 0

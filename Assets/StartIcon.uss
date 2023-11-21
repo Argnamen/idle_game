@@ -1,0 +1,33 @@
+.Buttons {
+    max-width: 70px;
+    min-width: 70px;
+    max-height: 44px;
+    min-height: 44px;
+    background-image: none;
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-text-align: middle-right;
+    -unity-font: url('project://database/Assets/TextMesh%20Pro/Examples%20&%20Extras/Fonts/Anton.ttf?fileID=12800000&guid=997a43b767814dd0a7642ec9b78cba41&type=3#Anton');
+    -unity-font-definition: none;
+    font-size: 20px;
+    color: rgb(255, 245, 32);
+    -unity-text-outline-width: 1px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(245, 228, 57, 0.72);
+    border-left-color: rgb(77, 43, 42);
+    border-right-color: rgb(77, 43, 42);
+    border-top-color: rgb(77, 43, 42);
+    border-bottom-color: rgb(77, 43, 42);
+}
